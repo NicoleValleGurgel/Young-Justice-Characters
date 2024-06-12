@@ -1,51 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Characters info</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
   <header class="cabecalho">
-    <h1>Characters</h1>
+    <h1>Young Justice Characters</h1>
   </header>
 
   <main class="personagens-slide">
-    <button>
-      <img src="./imgs/deixou.png" alt="voltar" id="btn-voltar">
+    <button class="btn-seta">
+      <img class="btn-voltar" src="./src/imgs/seta-aponta-para-a-direita.png" alt="voltar" id="btn-voltar" style="width: 50px; height: 50px;">
     </button>
 
     <ul class="lista-personagens">
       <li class="card selecionado fundo-1">
-        <h2 class="nome">Batman</h2>
-        <img src="" alt="" class="img-personagem">
+        <h2 class="nome">Night Wing</h2>
+        <img class="img-personagem" src="./src/imgs/characters/grayson.jpg" alt="" class="img-personagem" style="width: 350px;">
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, beatae iusto error tempore quaerat reiciendis nulla ea veritatis? Id minima iure magnam minus. Rem soluta repudiandae laborum maiores modi exercitationem!</p>
+        </div>
+      </li>
+
+      <li class="card fundo-2">
+        <h2 class="nome">Aqualad</h2>
+        <img class="img-personagem" src="./src/imgs/characters/kaldur.jpg" alt="" class="img-personagem">
         <div class="descricao">
           <h3 class="titulo">Descrição</h3>
           <p class="texto">descrição do personagem aqui</p>
         </div>
       </li>
 
-      <li class="card selecionado fundo-1">
-        <h2 class="nome">Batman</h2>
-        <img src="" alt="" class="img-personagem">
+      <li class="card fundo-3">
+        <h2 class="nome">Artemis</h2>
+        <img class="img-personagem" src="./src/imgs/characters/Artemis_.jpg" alt="" class="img-personagem">
         <div class="descricao">
           <h3 class="titulo">Descrição</h3>
           <p class="texto">descrição do personagem aqui</p>
         </div>
       </li>
 
-      <li class="card selecionado fundo-1">
-        <h2 class="nome">Batman</h2>
-        <img src="" alt="" class="img-personagem">
+      <li class="card fundo-4">
+        <h2 class="nome">Conner</h2>
+        <img class="img-personagem" src="./src/imgs/characters/Conner on Young Justice.jpg" alt="" class="img-personagem">
         <div class="descricao">
           <h3 class="titulo">Descrição</h3>
           <p class="texto">descrição do personagem aqui</p>
         </div>
       </li>
 
-      <li class="card selecionado fundo-1">
-        <h2 class="nome">Batman</h2>
-        <img src="" alt="" class="img-personagem">
+      <li class="card fundo-5">
+        <h2 class="nome">Wally</h2>
+        <img class="img-personagem" src="./src/imgs/characters/wally.jpg" alt="" class="img-personagem">
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">descrição do personagem aqui</p>
+        </div>
+      </li>
+
+      <li class="card fundo-6">
+        <h2 class="nome">Miss Marte</h2>
+        <img class="img-personagem" src="./src/imgs/characters/Miss M_.jpg" alt="" class="img-personagem">
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">descrição do personagem aqui</p>
+        </div>
+      </li>
+
+      <li class="card fundo-7">
+        <h2 class="nome">Zatanna</h2>
+        <img class="img-personagem" src="./src/imgs/characters/Zatanna.webp" alt="" class="img-personagem">
         <div class="descricao">
           <h3 class="titulo">Descrição</h3>
           <p class="texto">descrição do personagem aqui</p>
@@ -53,9 +87,10 @@
       </li>
     </ul>
 
-    <button>
-      <img src="./imgs/direito.png" alt="avançar" id="btn-avancar">
+    <button class="btn-seta">
+      <img class="avancar" src="./src/imgs/seta-aponta-para-a-direita.png" alt="avançar" id="btn-avancar" style="width: 50px; height: 50px;">
     </button>
   </main>
 </body>
+
 </html>
