@@ -1,0 +1,249 @@
+@media (max-width: 575.98px) {
+    .cabecalho {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .cabecalho h1 {
+        color: white;
+        letter-spacing: 05px;
+        text-transform: uppercase;
+    }
+
+    .personagens-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 01rem;
+    }
+
+    .lista-personagens {
+        width: 330px;
+        height: 530px;
+        position: relative;
+        
+    }
+
+    .btn-seta {
+        width: 03rem;
+        height: 03rem;
+        background-color: gray;
+        border-radius: 60rem;
+        border: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease-in-out;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .btn-seta .btn-voltar {
+        transform: rotate(180deg);
+        width: 02rem;
+        height: 02rem;
+    }
+
+    .btn-seta .btn-avancar {
+        width: 02rem;
+        height: 02rem;
+    }
+
+    .btn-seta:hover {
+        background-color: gray;
+    }
+
+    .card {
+        margin-top: 02rem;
+        margin-left: 01rem;
+        opacity: 0;
+        height: 100%;
+        position: absolute;
+        padding: 01rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        transition: opacity 0.3s ease-in-out;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card.selecionado {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .card .img-personagem {
+        max-width: 13.2rem;
+        max-height: 380rem;
+
+    }
+
+    .card .nome {
+        font-size: 80%;
+        background-color: rgba(0, 0, 0, 0.35);
+        letter-spacing: 05px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 05px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-transform: uppercase;
+    }
+
+    .card .descricao {
+        background-color: rgba(100, 100, 111, 0.2);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .card .descricao .titulo {
+        background-color: #333333;
+        font-size: 80%;
+        padding: 10px;
+    }
+
+    .card .descricao .texto {
+        font-size: 90%;
+        padding: 12px;
+        text-align: justify;
+        max-height: 100%;
+        overflow-y: auto;
+    }
+
+    .card.fundo-1 {
+        background: url();
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .cabecalho {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .cabecalho h1 {
+        color: white;
+        letter-spacing: 05px;
+        text-transform: uppercase;
+    }
+
+    .personagens-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 01rem;
+    }
+
+    .lista-personagens {
+        width: 330px;
+        height: 530px;
+        position: relative;
+        
+    }
+
+    .btn-seta {
+        width: 03rem;
+        height: 03rem;
+        background-color: gray;
+        border-radius: 60rem;
+        border: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease-in-out;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .btn-seta .btn-voltar {
+        transform: rotate(180deg);
+        width: 02rem;
+        height: 02rem;
+    }
+
+    .btn-seta .btn-avancar {
+        width: 02rem;
+        height: 02rem;
+    }
+
+    .btn-seta:hover {
+        background-color: gray;
+    }
+
+    .card {
+        margin-top: 02rem;
+        margin-left: 01rem;
+        opacity: 0;
+        height: 100%;
+        position: absolute;
+        padding: 01rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        transition: opacity 0.3s ease-in-out;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card.selecionado {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .card .img-personagem {
+        max-width: 100%;
+        max-height: 380rem;
+
+    }
+
+    .card .nome {
+        font-size: 80%;
+        background-color: rgba(0, 0, 0, 0.35);
+        letter-spacing: 05px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 05px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-transform: uppercase;
+    }
+
+    .card .descricao {
+        background-color: rgba(100, 100, 111, 0.2);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .card .descricao .titulo {
+        background-color: #333333;
+        font-size: 80%;
+        padding: 10px;
+    }
+
+    .card .descricao .texto {
+        font-size: 90%;
+        padding: 12px;
+        text-align: justify;
+        max-height: 100%;
+        overflow-y: auto;
+    }
+
+    .card.fundo-1 {
+        background: url();
+    }
+}
+
+
+@media (max-width: 991.98px) {}
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}
